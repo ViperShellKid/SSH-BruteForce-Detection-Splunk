@@ -56,7 +56,7 @@ This lab simulates a real-world SOC scenario involving:
 
 | Role            | OS         | Hostname    | IP             |
 | --------------- | ---------- | ----------- | -------------- |
-| SIEM Server     | Host / VM  | —           | 192.168.29.27  |
+| SIEM Server     | Host / VM  | —           | 192.168.*.* |
 | Victim Endpoint | Ubuntu     | social-loon | 10.120.115.175 |
 | Attacker        | Kali Linux | kali        | 10.120.115.1   |
 
@@ -227,7 +227,7 @@ Enter the forwarder admin credentials when prompted.
 Expected output:
 
 ```
-Added forwarding to: 192.168.29.27:9997
+Added forwarding to: 192.168.*.*:9997
 ```
 
 ---
